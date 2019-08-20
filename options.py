@@ -92,7 +92,6 @@ class TrainOptions(BaseOptions):
 		# model
 		parser.add_argument('-w', '--weight', type=str, default=None, help='model weight path')
 		parser.add_argument('--save_freq', type=int, default=30, help='save frequence')
-		parser.add_argument('--num_points', type=int, default=2500, help='number of sampling points')
 		
 		# hyperparameter
 		parser.add_argument('--num_epochs', type=int, default=90, help='number of epochs')
