@@ -43,6 +43,7 @@ dataset_list = [
     'cifar100', 
     'stl10', 
     'lsun', 
+    'cub200',
     'imagenet'
 ]
 
