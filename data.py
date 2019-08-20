@@ -122,7 +122,7 @@ class Idx2Label():
     def __init__(self, name, root=None):
         self.labels = []
         if check_dataset(name):
-            with open(os.path.join(base, 'misc/labels/{}.txt'.format(name)), 'r') as f:
+            with open(os.path.join(base, 'data/labels/{}.txt'.format(name)), 'r') as f:
                 for line in f:
                     self.labels.append(line.split('\t')[1].replace('\n', ''))
         elif root != None:
